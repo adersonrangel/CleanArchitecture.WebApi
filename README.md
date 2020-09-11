@@ -1,4 +1,4 @@
- # Clean Architecture with ASP.NET Core WebApi
+ # ASP.NET Core WebApi - Clean Architecture
 
 ![.NET Core](https://github.com/iammukeshm/CleanArchitecture.WebApi/workflows/.NET%20Core/badge.svg?branch=master)
 ![GitHub stars](https://img.shields.io/github/stars/iammukeshm/CleanArchitecture.WebApi)
@@ -8,23 +8,39 @@
 
 An Implementation of Clean Architecture with ASP.NET Core 3.1 WebApi. With this Open-Source BoilerPlate Template, you will get access to the world of Loosely-Coupled and Inverted-Dependency Architecture in ASP.NET Core 3.1 WebApi with a lot of best practices.
 
-Check out the [Project Page](https://www.codewithmukesh.com/project/clean-architecture-with-aspnet-core-webapi/) to learn more about this Open Source Project.
-
-## Upcoming Release 
-
-### v1.1-release 
+Check out the [Project Page](https://www.codewithmukesh.com/project/aspnet-core-webapi-clean-architecture/) to learn more about this Open Source Project.
 
 Read the [Changelog file](https://github.com/iammukeshm/CleanArchitecture.WebApi/blob/master/CHANGELOG.md) to see the new changes.
 
-Clone this repository to get the latest unreleased version.
 
 
 ## Releases
+v1.1 - Stable Release - [Download the Stable Release](https://github.com/iammukeshm/CleanArchitecture.WebApi/releases/tag/v1.1) 
 
 v1.0-preview - [Download the first Preview here](https://github.com/iammukeshm/CleanArchitecture.WebApi/releases/tag/v1.0-preview) 
 
-### v1 Preview.
+## v1.1
+
 Follow these steps to get started with this Boiler Plate Template.
+
+### Download the Extension
+Make sure Visual Studio 2019 is installed on your machine with the latest SDK.
+[Download from Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MukeshMurugan.CleanArchitectureWebApi). Install it on your machine.
+
+Follow these Steps to get started.
+
+![alt text](https://www.codewithmukesh.com/wp-content/uploads/2020/08/cleanArchitecture_VisualStudio.png)
+
+![alt text](https://www.codewithmukesh.com/wp-content/uploads/2020/08/cleanArchitecture_NewProject.png)
+
+You Solution Template is Ready!
+
+![alt text](https://www.codewithmukesh.com/wp-content/uploads/2020/08/cleanArchitecture_FolderStructure.png)
+
+Visit the Project Page to learn more - [Click Here](https://www.codewithmukesh.com/project/aspnet-core-webapi-clean-architecture/)
+
+### Alternatively you can also clone the Repository.
+
 1. Clone this Repository and Extract it to a Folder.
 3. Change the Connection Strings for the Application and Identity in the WebApi/appsettings.json - (WebApi Project)
 2. Run the following commands on Powershell in the WebApi Projecct's Directory.
@@ -34,6 +50,21 @@ Follow these steps to get started with this Boiler Plate Template.
 - dotnet run (OR) Run the Solution using Visual Studio 2019
 
 Check out my [blog](https://www.codewithmukesh.com) or say [Hi on Twitter!](https://twitter.com/codewithmukesh)
+
+### Default Roles & Credentials
+As soon you build and run your application, default users and roles get added to the database.
+
+Default Roles are as follows.
+- SuperAdmin
+- Admin
+- Moderator
+- Basic
+
+Here are the credentials for the default users.
+- Email - superadmin@gmail.com  / Password - 123Pa$$word!
+- Email - basic@gmail.com  / Password - 123Pa$$word!
+
+You can use these default credentials to generate valid JWTokens at the ../api/account/authenticate endpoint.
 
 ## Purpose of this Project
 
@@ -65,8 +96,9 @@ Or, If you are feeling really generous, [Support the Project with a small contri
 - [x] Serilog
 - [x] Swagger UI
 - [x] Response Wrappers
-- [ ] Healthchecks
+- [x] Healthchecks
 - [x] Pagination
+- [ ] In-Memory Caching
 - [ ] Redis Caching
 - [x] In-Memory Database
 - [x] Microsoft Identity with JWT Authentication
@@ -78,7 +110,8 @@ Or, If you are feeling really generous, [Support the Project with a small contri
 - [x] Fluent Validation
 - [x] Automapper
 - [x] SMTP / Mailkit / Sendgrid Email Service
-- [ ] Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail)
+- [x] Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail)
+- [x] User Auditing
 
 ## Brief Overview
 ![alt text](https://www.codewithmukesh.com/wp-content/uploads/2020/06/Onion-Architecture-In-ASP.NET-Core.png)
